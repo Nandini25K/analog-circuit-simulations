@@ -30,11 +30,10 @@ run
 plot V(in) 
 plot V(vout)
 
-* Measurements
 meas tran Vpp_in pp V(in)
 meas tran Vpp_out pp V(vout)
 meas tran I_in pp I(Vin)
-meas tran I_out pp I(vout)
+meas tran i_out  pp i(Vmeas)
 
 * Gain and Input Resistance
 plot Vpp_out/Vpp_in
