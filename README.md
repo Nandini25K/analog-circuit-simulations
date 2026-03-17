@@ -1,49 +1,59 @@
 # Analog Circuit Design and Simulation
 
+## Overview
 
-This repository contains simulations of fundamental analog circuits using LTspice, ngspice and proteus. The goal of this project is to understand circuit behavior through analysis of frequency response, gain, and signal characteristics.
+This repository contains simulations of fundamental analog circuits using LTspice, ngspice, and Proteus. The objective is to analyze circuit behavior through frequency response, gain characteristics, and signal processing techniques.
 
-## 🔧 Tools Used
 
-* LTspice (for analog circuit simulation)
-* ngspice (for BJT configurations)
-* Proteus(for bandpass filters and instrumentation amplifier)
+##  Tools Used
 
-## 📁 Projects Included
+* LTspice – Analog circuit simulation and frequency analysis
+* ngspice – BJT configuration simulations
+* Proteus – Circuit design and visualization
 
-### 1. RC Filters
+##  Projects Included
 
-* First-order low-pass filter
-* Frequency response analysis
-* Verification of -20 dB/dec roll-off
+### RC Filters
 
-### 2. Sallen-Key Low-Pass Filter
+* Designed and simulated first-order low-pass filter
+* Performed frequency response analysis using AC sweep
+* Verified –20 dB/decade roll-off
+* 
+###  Sallen-Key Low-Pass Filter
 
-* Second-order active filter using op-amp
-* Demonstrates -40 dB/dec roll-off
-* Analysis of cutoff frequency and stability
+* Designed second-order active filter using op-amp
+* Analyzed cutoff frequency and stability
+* Verified –40 dB/decade attenuation beyond cutoff
 
-### 3. BJT Configurations
+###  BJT Configurations
 
-* Common Emitter (CE)
-* Common Base (CB)
-* Common Collector (CC)
-* Study of gain and impedance characteristics
-
-### 4. Instrumentation Amplifier
-
-* Basic amplifier design for signal conditioning
-* Analysis of gain and differential input behavior
-
-### 5. Band-Pass Filter
-
-* Frequency selective circuit
-* Analysis of passband and attenuation regions
+* Simulated Common Emitter (CE), Common Base (CB), and Common Collector (CC)
+* Analyzed gain, input/output impedance, and signal behavior
 
 
 
-## ✅ Conclusion
+###  Proteus Simulations
 
-This repository serves as a practical exploration of core analog electronics concepts through simulation and analysis.
+**Instrumentation Amplifier**
 
----
+* Designed differential amplifier for signal conditioning
+* Analyzed gain and input characteristics
+
+**Band-Pass Filter**
+
+* Designed frequency-selective circuit
+* Studied passband and attenuation regions
+
+
+## Key Learnings
+
+* Frequency response analysis using Bode plots
+* Differences between first-order and second-order systems
+* Effect of component values on circuit performance
+* Practical understanding of analog circuit design
+
+
+##  Conclusion
+
+This repository represents a practical exploration of core analog electronics concepts through simulation and analysis, with a focus on understanding real-world circuit behavior.
+
