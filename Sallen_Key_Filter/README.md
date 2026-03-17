@@ -1,12 +1,10 @@
 # Sallen-Key Low-Pass Filter (Second Order)
 
-## 📌 Objective
+##  Objective
 
 To design and analyze a second-order active low-pass filter using the Sallen-Key topology.
 
----
-
-## ⚙️ Circuit Description
+##  Circuit Description
 
 The circuit uses:
 
@@ -16,7 +14,6 @@ The circuit uses:
 
 This configuration improves filtering performance compared to passive filters.
 
----
 
 ## 🔧 Component Values
 
@@ -27,9 +24,8 @@ This configuration improves filtering performance compared to passive filters.
 | C1        | 100 nF |
 | C2        | 100 nF |
 
----
 
-## 📐 Theoretical Background
+##  Theoretical Background
 
 Cutoff frequency:
 
@@ -39,37 +35,27 @@ f_c ≈ 159 Hz
 
 Second-order filters provide steeper roll-off compared to first-order filters.
 
----
 
-## 📊 Simulation
+##  Simulation
 
 * Tool: LTspice
 * Analysis: AC Sweep
 
----
 
-## 📈 Results
+##  Results
 
 * Flat passband response
 * Cutoff near ~150 Hz
 * Roll-off ≈ –40 dB/decade
 
----
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 * Higher-order filters improve selectivity
 * Op-amp buffering enhances stability
 * Component matching affects performance
 
----
 
-## 📁 Files Included
-
-* `sallen_key_lowpass.asc`
-* `bode_plot.png`
-
----
 
 ## 🚀 Conclusion
 
