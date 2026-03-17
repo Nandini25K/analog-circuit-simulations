@@ -35,7 +35,7 @@ meas tran Vpp_out pp V(vout)
 meas tran I_in pp I(Vin)
 meas tran i_out  pp i(Vmeas)
 
-* Gain and Input Resistance
+* Gain and output Resistance
 plot Vpp_out/Vpp_in
 plot Vpp_out/I_out
 .endc
